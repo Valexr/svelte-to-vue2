@@ -1,17 +1,10 @@
 <template>
   <div>
-
     <h1>{{ msg }}</h1>
 
     <p>
-      <a
-        href="https://vitejs.dev/guide/features.html"
-        target="_blank"
-      >Vite Documentation</a> |
-      <a
-        href="https://vuejs.org/v2/guide/"
-        target="_blank"
-      >Vue 2 Documentation</a>
+      <a href="https://vitejs.dev/guide/features.html" target="_blank">Vite Documentation</a> |
+      <a href="https://vuejs.org/v2/guide/" target="_blank">Vue 2 Documentation</a>
     </p>
 
     <button @click="count++">count is: {{ count }}</button>
@@ -25,14 +18,14 @@
 <script>
 export default {
   props: {
-    msg: String,
+    msg: String
   },
   data() {
     return {
       count: 0,
-    };
-  },
-};
+    }
+  }
+}
 </script>
 
 <style scoped>

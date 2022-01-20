@@ -10,12 +10,12 @@ import createSlots from './slots'
 // };
 
 function replaceTarget(Component, target, props, slots) {
-    let text = document.createTextNode('data')
+    // let text = document.createTextNode('data')
     const component = new Component({
         target: target.parentElement,
         props: {
             // $$slots: { default: slots },
-            $$scope: {},
+            // $$scope: {},
             ...props,
         },
         anchor: target,
@@ -36,7 +36,7 @@ export default (Component, style = {}, tag = "span") =>
                 ref: "container",
                 props: this.$attrs,
                 style
-            }, this.$slots.default[0])
+            })
         },
         data() {
             return {
