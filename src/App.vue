@@ -2,7 +2,7 @@
     <div id="app" class="spectre">
         <img alt="Vue logo" src="./assets/logo.png" />
         <HelloWorld msg="Hello Vue 2 + Vite" :count="count" />
-        <SpectreButton @click="click" variant="primary" label="SpectreButton" />
+        <SpectreButton @click="click" variant="primary" label="SpectreButton" badge="badge" />
         <!-- <span>SpectreButton</span> -->
         <!-- </SpectreButton> -->
     </div>
