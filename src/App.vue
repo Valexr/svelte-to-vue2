@@ -41,7 +41,7 @@ export default {
 //     }
 // })
 
-// console.log(SpectreButton, Button, button)
+console.log(HelloWorld, SpectreButton)
 </script>
 
 <style>
@@ -52,5 +52,12 @@ export default {
     text-align: center;
     color: #2c3e50;
     margin-top: 60px;
+}
+html,
+body,
+.spectre {
+    /* font-family: Exo2, system-ui !important; */
+    font-size: 18px;
+    margin: auto;
 }
 </style>
